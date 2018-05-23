@@ -6,7 +6,7 @@
 # ref: https://stackoverflow.com/questions/3411771/multiple-character-replace-with-python
 
 SPECIAL_CHARS = ['~', '`', '!', '@', '%', '^', '*', '(', ')', '=', '{', '}', '|', '\\',
-                 ';', '<', '>', ',', '?', ' +', '+ ', '\xe3\x80\x80', '\xe2\x80\xa8',
+                 ';', '<', '>', ',', '?', ' +', '+ ',
                  '"', '-', '+', ':', '#', '/', '[', ']']
 
 

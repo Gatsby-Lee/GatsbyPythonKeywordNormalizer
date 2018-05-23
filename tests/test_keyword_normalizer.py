@@ -14,3 +14,4 @@ def test_():
     assert normalize_searchterm('A  B\tC') == 'a b c'
     assert normalize_searchterm('A  B\nC') == 'a b c'
     assert normalize_searchterm('     A  B  \nC   ') == 'a b c'
+    assert normalize_searchterm('     사과\nC   ') == '사과 c'
