@@ -1,4 +1,4 @@
-Keyword Normalizer
+Gatsby Normalizer
 ===================
 
 Installation
