@@ -1,11 +1,20 @@
-Keyword Normalizer
-===================
+Gatsby Normalizer
+=================
+
+Installation
+------------
+
+To install gatsby-normalizer, simply:
+
+.. code-block:: bash
+
+    $ sudo pip install gatsby-normalizer
 
 API References
 --------------
 
 normalize_searchterm
-^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^
 
 1. remove special characters
 2. Remove *tab*, *new line*
