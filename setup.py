@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='gatsby-normalizer',
-    version='1.0.1',
+    version='1.0.2',
     description='Normalize Keyword, URL, and etc.',
     long_description=open('README.rst').read(),
     url='https://github.com/Gatsby-Lee/GatsbyPythonNormalizer',

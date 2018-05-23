@@ -18,15 +18,15 @@ def normalize_searchterm(keyword, spcial_chars=SPECIAL_CHARS,
             spcial_chars (list)
             func_list (list)
         Returns: kw (str)
-    >>> normalize_kw('ABC ')
+    >>> normalize_searchterm('ABC ')
     'abc'
-    >>> normalize_kw('A  B C')
+    >>> normalize_searchterm('A  B C')
     'a b c'
-    >>> normalize_kw('A  B\tC')
+    >>> normalize_searchterm('A  B\tC')
     'a b c'
-    >>> normalize_kw('A  B\nC')
+    >>> normalize_searchterm('A  B\nC')
     'a b c'
-    >>> normalize_kw('     A  B  \nC   ')
+    >>> normalize_searchterm('     A  B  \nC   ')
     'a b c'
     """
 
@@ -48,11 +48,11 @@ def _replace_special_char(kw, spcial_chars):
     'abc'
     """
 
-    for c in SPECIAL_CHARS:
+    for c in spcial_chars:
         if c in kw:
             kw = kw.replace(c, '')
 
     return kw
 
 
-__all__ = ('normalize_kw',)
+__all__ = ('normalize_searchterm',)

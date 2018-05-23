@@ -4,7 +4,7 @@ Gatsby Normalizer
 .. image:: https://img.shields.io/badge/License-AGPL%20v3-blue.svg
    :target: https://www.gnu.org/licenses/agpl-3.0
 
-.. image:: https://img.shields.io/badge/Version-1.0.1-green.svg?style=flat
+.. image:: https://img.shields.io/badge/Version-1.0.2-green.svg?style=flat
    :target: https://pypi.org/project/gatsby-normalizer/
 
 Installation
