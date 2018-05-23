@@ -6,6 +6,9 @@ Gatsby Normalizer
 
 .. image:: https://img.shields.io/badge/Version-1.0.2-green.svg?style=flat
    :target: https://pypi.org/project/gatsby-normalizer/
+   
+.. image:: https://img.shields.io/travis/Gatsby-Lee/GatsbyPythonNormalizer.svg
+   :target: https://travis-ci.org/Gatsby-Lee/GatsbyPythonNormalizer.svg?branch=master
 
 Installation
 ------------
