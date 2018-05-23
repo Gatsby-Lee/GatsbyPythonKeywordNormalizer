@@ -8,7 +8,7 @@ Gatsby Normalizer
    :target: https://pypi.org/project/gatsby-normalizer/
    
 .. image:: https://img.shields.io/travis/Gatsby-Lee/GatsbyPythonNormalizer.svg
-   :target: https://travis-ci.org/Gatsby-Lee/GatsbyPythonNormalizer.svg
+   :target: https://travis-ci.org/Gatsby-Lee/GatsbyPythonNormalizer
 
 Installation
 ------------
