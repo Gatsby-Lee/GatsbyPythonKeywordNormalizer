@@ -18,16 +18,6 @@ def normalize_searchterm(keyword, spcial_chars=SPECIAL_CHARS,
             spcial_chars (list)
             func_list (list)
         Returns: kw (str)
-    >>> normalize_searchterm('ABC ')
-    'abc'
-    >>> normalize_searchterm('A  B C')
-    'a b c'
-    >>> normalize_searchterm('A  B\tC')
-    'a b c'
-    >>> normalize_searchterm('A  B\nC')
-    'a b c'
-    >>> normalize_searchterm('     A  B  \nC   ')
-    'a b c'
     """
 
     kw = _replace_special_char(keyword, spcial_chars)
@@ -43,9 +33,6 @@ def _replace_special_char(kw, spcial_chars):
     Replace special char specified in @spcial_chars to empty char
         Args: kw (str)
         Returns: kw (str)
-
-    >>> _replace_special_char('abc#', ['#', '!'])
-    'abc'
     """
 
     for c in spcial_chars:
@@ -55,4 +42,6 @@ def _replace_special_char(kw, spcial_chars):
     return kw
 
 
-__all__ = ('normalize_searchterm',)
+__all__ = (
+    '_replace_special_char',
+    'normalize_searchterm',)
